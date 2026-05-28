@@ -20,10 +20,37 @@ int main() {
 
 ## Truth-First Answer
 
-The response:
+The full truth-first response:
 
 ```text
+aslsgss / aslRp
+
+Recipient/read:
+You're likely doing a sanity/check joke or quick C++ review.
+
+Current state:
+Tiny C++ hello world program.
+
+Truth to carry:
+No functional bug for typical GCC/Clang competitive-programming style. It prints hello world and returns 0.
+
+Boundary:
+Do not over-engineer. Mention portability only.
+
+What to avoid:
+Pretending there is a serious bug.
+
+Draft / Answer:
+
 No real bug.
+
+#include <bits/stdc++.h>
+using namespace std;
+
+int main() {
+    printf("hello world");
+    return 0;
+}
 
 It compiles in GCC/Clang environments where bits/stdc++.h exists.
 
@@ -31,11 +58,9 @@ Only notes:
 - bits/stdc++.h is non-standard C++, but common in competitive programming.
 - You don't need using namespace std; here because you use printf.
 - If using strict portable C++, use #include <cstdio> instead.
-```
 
-Then it provided a portable version:
+Portable version:
 
-```cpp
 #include <cstdio>
 
 int main() {

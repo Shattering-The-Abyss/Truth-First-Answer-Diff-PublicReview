@@ -17,4 +17,6 @@ The example uses a leveraged ETF question only to demonstrate answer-quality dif
 ## Artifact
 
 - `soxl-answer-diff-2026-05-27.md`
-
+- `youtube-summary-mission-frame-2026-05-28-en.md`
+- `youtube-summary-mission-frame-2026-05-28-cn.md`
+- `youtube-summary-stack-trace-2026-05-28.md`
